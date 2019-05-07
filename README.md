@@ -15,5 +15,8 @@ The numbers are saved in a `unsigned long long int` type so they can store reall
 * CodeBlocks (IDE)
 * GNU GCC Compiler (minGW)
 
+## Inspiration
+Creating this program in the first place wouldn't be possible without one very special and unique person who inspired it. A certain Angel, thanks to whom I believed in myself to go back into programming and who was a reason why I've written this program in the first place. All that I'm doing I'm dedicating to you.
+
 ## Contact
 Written by [ReznoRMichael](https://github.com/ReznoRMichael) - 2019
