@@ -1,7 +1,9 @@
-# Reznor custom link generator
+# Reznor custom link generator v1.03
+
 > Simple program in Object C++ (using Classes and member functions)
 
 ## General info
+
 Program that I've first written in procedural C++, and then rewritten using Classes and a Timer specifically for myself for generating deviantart comments links and saving them into text file. This version is an evolution from the [previous one](https://github.com/ReznoRMichael/reznor-deviantart-comments-link-generator-object) and now can also generate custom user links that are ending in a number.
 It generates links in the following template:
 `[Your custom URL text][link_number]/`
@@ -11,12 +13,19 @@ It asks the user for the custom link text - if you type "0" it will use the defa
 The numbers are saved in a `unsigned long long int` type so they can store really big numbers - up to 18,446,744,073,709,551,615.
 
 ## Technologies
+
 * Object C++
 * CodeBlocks (IDE)
 * GNU GCC Compiler (minGW)
 
 ## Inspiration
+
 Creating this program in the first place wouldn't be possible without one very special and unique person who inspired it. A certain Angel, thanks to whom I believed in myself to go back into programming and who was a reason why I've written this program in the first place. All that I'm doing I'm dedicating to you.
 
+## Screenshot
+
+![screenshot](screen1.png)
+
 ## Contact
+
 Written by [ReznoRMichael](https://github.com/ReznoRMichael) - 2019

@@ -18,6 +18,7 @@ int main()
     cout << "#              You can also use the default template:               #" << endl;
     cout << "#         https://comments.deviantart.com/62/[link_number]/         #" << endl;
     cout << "#-------------------------------------------------------------------#" << endl;
+    cout << endl;
 
     Commentlink LinkGenerator; // Class; Object - new object of the type Commentlink
     TimeCalculation TimeCalculator; // Class; Object - new object of the type TimeCalculation
@@ -34,18 +35,19 @@ int main()
 
     cout << fixed << setprecision(3);
 
-    cout << "#----------------------------------------------------#" << endl;
-    cout << "#       Link generation completed successfully.      #" << endl;
-    cout << "#  You can now open the 'generated_links.txt' file.  #" << endl;
-    cout << "#----------------------------------------------------#" << endl;
-    cout << "#               Completed in " << TimeCalculator.TimeCalculated << " s.                #" << endl;
-    cout << "#----------------------------------------------------#" << endl;
-    cout << "#        Written using object C++ by rezno[R]        #" << endl;
-    cout << "#      Time of compilation: " << __DATE__ << " " << __TIME__ << "     #" << endl;
-    cout << "#             First written: 2018.11.29              #" << endl;
-    cout << "#----------------------------------------------------#" << endl;
-    cout << "#         [Press Enter to close the program]         #" << endl;
-    cout << "#----------------------------------------------------#" << endl;
+    cout << endl;
+    cout << "#-------------------------------------------------------------------#" << endl;
+    cout << "#               Link generation completed successfully.             #" << endl;
+    cout << "#          You can now open the 'generated_links.txt' file.         #" << endl;
+    cout << "#-------------------------------------------------------------------#" << endl;
+    cout << "#                        Completed in " << TimeCalculator.TimeCalculated << " s.                      #" << endl;
+    cout << "#-------------------------------------------------------------------#" << endl;
+    cout << "#                Written using object C++ by rezno[R]               #" << endl;
+    cout << "#             Time of compilation: " << __DATE__ << " " << __TIME__ << "             #" << endl;
+    cout << "#                     First written: 2018.11.29                     #" << endl;
+    cout << "#-------------------------------------------------------------------#" << endl;
+    cout << "#                [Press Enter to close the program]                 #" << endl;
+    cout << "#-------------------------------------------------------------------#" << endl;
 
     getchar(); getchar();
 
