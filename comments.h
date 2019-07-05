@@ -1,5 +1,6 @@
 #include <iostream>
-#include <cstring> // strcpy() / string
+#include <string> // new C++ standard string (don't use the old <cstring>/"string.h" ! )
+
 using namespace std;
 
 class Commentlink
